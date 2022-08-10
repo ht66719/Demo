@@ -18,7 +18,6 @@ import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 
 import com.test.demo.service.UserDetailsServiceImpl;
 
-@Configuration
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
 	@Autowired
